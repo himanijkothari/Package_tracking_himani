@@ -1,0 +1,61 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.heading-intro{
+
+    padding: 50px;
+    color: black;
+    text-align: center;
+}
+
+.intro-para{
+    text-align: center;
+
+}
+
+@media screen and (max-width:420px)
+{
+    .heading-intro{
+        font-size: 24px;
+    }
+
+    .intro-para{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:800px) and (min-width:450px)
+{
+    .heading-intro{
+        font-size: 34px;
+    }
+
+    .intro-para{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px)
+{
+    .heading-intro{
+        font-size: 45px;
+    }
+
+    .intro-para{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) 
+{
+    .heading-intro{
+        font-size: 50px;
+    }
+
+    .intro-para{
+        font-size: 34px;
+    }
+}

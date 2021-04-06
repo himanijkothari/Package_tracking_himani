@@ -1,0 +1,153 @@
+.trackpage{
+    margin: 0;
+    padding: 0;
+}
+
+.heading-track{
+
+    padding: 50px;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.details-track{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.search-bar input[type="text"] {
+    box-sizing: border-box;
+    display: inline-block;
+    border: solid 0.5px #828282;
+    outline: none;
+    text-align: center;
+
+  }
+
+
+  .search-bar input[type="submit"] {
+    box-sizing: border-box;
+    background-color:#6d76f7;;
+    color: black;
+    border: solid 0.5px;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    border-radius: 8px;
+    
+}
+
+@media screen and (max-width:420px)
+{
+    .heading-track{
+        font-size: 24px;
+        margin-bottom: -50px;
+    }
+
+    .details-track{
+        font-size: 20px;
+    }
+    .search-bar input[type="text"]{
+
+        height:20px;
+        width:150px;
+        margin-left:100px;
+    }
+
+    .search-bar input[type="submit"]{
+
+        height:20px ;
+        width:50px ;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:800px) and (min-width:450px)
+{
+    .heading-track{
+        font-size: 30px;
+        margin-bottom: -50px;
+    }
+
+    .details-track{
+        font-size: 20px;
+    }
+
+    .search-bar input[type="text"]{
+
+        height:30px;
+        width:200px;
+        margin-left:250px;
+    }
+
+    .search-bar input[type="submit"]{
+
+        height:30px ;
+        width:60px ;
+        font-size: 8px;
+    }
+    
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px)
+{
+    .heading-track{
+        font-size: 40px;
+        margin-bottom: -50px;
+    }
+
+    .details-track{
+        font-size: 20px;
+    }
+
+    .search-bar input[type="text"]{
+
+        height:30px;
+        width:200px;
+        margin-left:400px;
+    }
+
+    .search-bar input[type="submit"]{
+
+        height:30px ;
+        width:100px ;
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width:1200px) 
+{
+    .heading-track{
+        font-size: 40px;
+        margin-bottom: -50px;
+    }
+
+    .details-track{
+        font-size: 20px;
+    }
+
+    .search-bar input[type="text"]{
+
+        height:30px;
+        width:200px;
+        margin-left:550px;
+    }
+
+    .search-bar input[type="submit"]{
+
+        height:30px ;
+        width:100px ;
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+ 
